@@ -28,7 +28,6 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `tb_user` (
   `id` int(11) NOT NULL,
-  `name` varchar(50) NOT NULL,
   `username` varchar(25) NOT NULL,
   `email` varchar(50) NOT NULL,
   `password` varchar(75) NOT NULL
